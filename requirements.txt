@@ -1,0 +1,5 @@
+aiogram
+groq
+python-dotenv
+cryptography
+keyring
