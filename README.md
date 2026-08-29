@@ -173,8 +173,13 @@ The current model configured in the project is:
 ```text
 openai/gpt-oss-20b
 ```
-
 The model can be changed in `ai.py`.
+
+## Later
+
+I plan to adapt this bot to the local "dolphin-mistral:7b" AI model from Ollama soon.
+
+I also hope it won't take too long. I expect to finish implementing this by September 6th, and the local AI version will be ready.
 
 ## License
 
