@@ -21,7 +21,7 @@ The bot supports customizable AI behavior, conversation history, web search, `.t
 ## Project Structure
 
 ```text
-Telegram-AI/
+Bot/
 ├── main.py
 ├── route.py
 ├── ai.py
@@ -48,7 +48,7 @@ Telegram-AI/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Telegram-AI.git
+git clone https://github.com/niki30b/Telegram-AI.git
 cd Telegram-AI
 ```
 
@@ -165,28 +165,6 @@ logs/
 Normal application logs are stored in `logs/`.
 
 Error-level logs are also written to the corresponding file in `logs/crash_logs/`.
-
-## Security Notes
-
-Never commit these files or directories if they contain real data:
-
-```text
-.env
-data/
-logs/
-.venv/
-__pycache__/
-```
-
-Never expose:
-
-- Telegram bot tokens
-- Groq API keys
-- Encryption keys
-- User configuration
-- User chat history
-
-If a secret is accidentally pushed to a public repository, revoke or rotate it immediately.
 
 ## Model
 
