@@ -33,10 +33,7 @@ logger = logging.getLogger("Route")
 env = data_path / ".env"
 load_dotenv(env)
 
-
-# =====================================================================
 # Rate limiting / concurrency protection
-# =====================================================================
 
 MAX_REQUESTS_PER_MINUTE = 10
 COOLDOWN_SECONDS = 2.0
@@ -130,10 +127,7 @@ class _RequestSlot:
 
 request_limiter = RequestLimiter()
 
-
-# =====================================================================
 # Access control
-# =====================================================================
 
 try:
     _startup_data = load_data()
