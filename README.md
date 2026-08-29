@@ -178,4 +178,6 @@ The model can be changed in `ai.py`.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is released under The Unlicense.
+
+You are free to use, copy, modify, publish, distribute, sublicense, and/or sell this software without restriction.
