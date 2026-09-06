@@ -24,16 +24,27 @@ This is a standalone branch (`Bot-Ollama-BETA`) that uses a **locally running Ol
 ## Project Structure
 
 Bot_Ollama/
+
 ├── main.py
+
 ├── route.py
+
 ├── ai.py
+
 ├── storage.py
+
 ├── Forms/
+
 │   └── User_form.py
+
 ├── data/
+
 │   └── users/
+
 └── logs/
+
 └── crash_logs/
+
 plain
 
 
