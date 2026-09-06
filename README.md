@@ -72,7 +72,7 @@ TOKEN_BOT=your_telegram_bot_token
 OLLAMA_URL=http://localhost:11434
 STORAGE_ENCRYPTION_KEY=your_fernet_key
 
-Таблица
+
 Variable	Description
 TOKEN_BOT	Your Telegram bot token from @BotFather
 OLLAMA_URL	URL of your Ollama instance. Default: http://localhost:11434
@@ -155,7 +155,7 @@ bash
 ollama pull <model-name>
 
 Differences from Main Branch
-Таблица
+
 Feature	main (Groq / OpenRouter)	Bot-Ollama-BETA (Ollama)
 AI Provider	Groq / OpenRouter API	Local Ollama instance
 API Key	Required (Groq/OpenRouter key)	Not required
